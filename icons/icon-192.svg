@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#0b0b0b"/>
+  <circle cx="96" cy="80" r="40" fill="none" stroke="#d62828" stroke-width="8"/>
+  <text x="96" y="95" font-family="system-ui,Arial" font-size="36" font-weight="900" fill="#fff" text-anchor="middle">25</text>
+  <text x="96" y="60" font-family="system-ui,Arial" font-size="12" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="2">SPEED LIMIT</text>
+  <text x="96" y="148" font-family="system-ui,Arial" font-size="16" font-weight="700" fill="#d62828" text-anchor="middle">SPEEDWARN</text>
+  <text x="96" y="168" font-family="system-ui,Arial" font-size="11" fill="#888" text-anchor="middle">SF</text>
+</svg>
