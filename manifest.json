@@ -24,8 +24,5 @@
       "purpose": "any maskable"
     }
   ],
-  "screenshots": [
-    { "src": "images/screenshots/map.png",  "sizes": "1280x720", "type": "image/png" },
-    { "src": "images/screenshots/sign.png", "sizes": "1280x720", "type": "image/png" }
-  ]
+  "screenshots": []
 }

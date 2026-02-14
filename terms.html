@@ -33,7 +33,19 @@
   <p>We may update these Terms. Your continued use after the effective date constitutes acceptance.</p>
 
   <h2 class="h5">9) Contact</h2>
-  <p><a class="link-light" href="/contact.html">Contact us</a> with questions.</p>
+  <p><a class="link-light" id="contactLink" href="contact.html">Contact us</a> with questions.</p>
+  <p class="mt-3"><a class="link-light" id="homeLink" href="index.html">Back to App</a></p>
 </div>
+<script>
+(function(){
+  const REPO = 'sf-speed-alerts';
+  const path = location.pathname.replace(/\/+$/, '');
+  const onRepo = location.hostname.endsWith('github.io') && path.startsWith('/' + REPO);
+  let base = onRepo ? ('/' + REPO) : '';
+  if (!base) { const parts = location.pathname.split('/'); const idx = parts.lastIndexOf(REPO); if (idx > -1) base = '/' + parts.slice(1, idx + 1).join('/'); }
+  const cl = document.getElementById('contactLink'); if (cl) cl.href = base + '/contact.html';
+  const hl = document.getElementById('homeLink'); if (hl) hl.href = base + '/';
+})();
+</script>
 </body></html>
 
